@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                </ul>  
+                <br>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Introduction</h1>
+                <p>This is my sample website. I made it so that students would understand what their website needs at the most basic level. They are encouraged to make something like this or even better,but this site shows them what kind of product they need to produce.</p>
+                <hr>
+                <h2>About</h2>
+                <p>Hello, my name is Phil Albonetti. This is my 20th year teaching and my 12th at Fishers. My wife, Anya, and I have three children, and we took them to Italy over the summer. We had been planning the trip for quite some time, and it was fun to be able to live out our dream vacation. We flew into Rome and stayed in Ostia, a nearby beach town, for the first three days. Then we took the bullet train to Florence and toured around there for a week. Next we took a quick detour to the Leaning Tower of Pisa before ending up at Genoa for five days. Last we traveled back to Rome and enjoyed that ancient city for a week. The trip was a blessing.</p>
+                <hr>
+                <h2 class="text-center">Albonetti Trip to Italy</h2>
+                <img src="images/cinqueTerre.png" class="img-fluid" alt="Picture of Mr. and Dr. Albonetti at Cinque Terre in Italy.">
+                <p>The assignment calls for you students to post a picture just of yourself and of no one else. I'm sure they do that for privacy reasons. The thing is, I do what I want and I want to post photos of my family. So, dangit, I'm gonna do that.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 wrapper">
+                <h3 class="text-center"> Alps at Sunrise</h3>
+                <img src="images/alps.png" class="img-fluid" alt="Picture of the Alpine Mountains at sunrise">
+                <p>We flew into Rome on an overnight flight. The arrival brought us into Italy and over the Alps during the sunrise. Beautiful!</p>
+            </div>
+            <div class="col-md-6 wrapper">
+                <h3 class="text-center">The Appian Way</h3>
+                <img src="images/viaAppia.png" class="img-fluid" alt="Mr. A and his son in front of the Via Appia road sign">
+                <p>The Via Appia is a 2300 year old road that leads into the southern entrance of Rome.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 wrapper">
+                <h3 class="text-center">Italian Cooking</h3>
+                <img src="images/cooking.heic" class="img-fluid" alt="cooking in Italy">
+                <p>My family took cooking lessons at three different places: Florence, Genoa, and Rome. This is the lesson in Florence where we all learned how to make pasta and cheese ravioli.</p>
+            </div>
+            <div class="col-md-6 wrapper">
+                <h3 class="text-center">Monumental Fun</h3>
+                <img src="images/monument.heic" class="img-fluid" alt="Roman ruins">
+                <p>This 2000 year old ruin in the ancient Roman forum looked photogenic on that hot June day.</p>
+            </div>
+        </div>
+        <hr>
+
+        <div class="row">
+           <div class="col-md-12">
+                <h2>Projects</h2>
+                <p>In this section, students should post at least two assignments from this class. According to the directions, this section should include Titles, Images, Links, and Descriptions. Read the assigment instructions for what you should post, but you can also follow my lead. I plan to put the assignments in two columns of a Bootstrap row.</p>
+           </div> 
+        </div>
+        <div class="row">
+            <div class="col-md-6 wrapper">
+                <img src="images/project.png" class="img-fluid" alt="screenshot of Luhn algorithm project">
+                <a href="https://albotron.github.io/web-profile-example/CreditCardProgram.java">Credit Card Number Check - Java Program</a>
+                <p>This program determines if a credit card is a valid number or not. First it takes in the user's card number and conducts input validation checks: A. is the number is the correct length (13-16 digits) and B. is the input actually a number and not other character types (letters, punctuation, etc.)? Next the program conducts a Luhn check on the credit card number. Step 1: Double every second digit starting at the left of the number. If the doubling creates a two digit number then add those two digits to create a new single digit number. Step 2: Add all the single digit numbers from Step 1. Step 3: Add all the digits from the odd places of the number together. Step 4: Add the even digit total from Step 2 and the odd digit total from Step 3. Step 5: Calculate if the number from Step 4 is divisible by 10 (number % 10 == 0). If yes, then the credit card number is valid. If not, then it is an invalid number.</p>
+            </div>
+            <div class="col-md-6 wrapper">
+                <img src="images/tree.png" class="img-fluid" alt="picture of tree with sun setting behind it">
+                <a href="https://www.australianphotography.com/gear/review-dji-mini-3-pro">DJI Mini Pro 3 - The drone I used to take the photo</a>
+                <p>This project requires less explanation than the previous one. I used my camera drone to take a photo of the sunset in our back property. Then I paid a company to turn that photo into a puzzle for my wife for her birthday. Your website will probably need to focus more on academic stuff, but I thought this photo and story would lighten things up on this sample website.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p>I certify that the content included in this portfolio/website is my own original work (or is cited accurately) and accurate to my knowledge. Work included which was conducted as part of a team or other group is indicated and attributed as such the other team members are named and a true description of my role in the project is included. {Phil Albonetti - Electronic Signature}</p>
+                <p class="text-center">Layout by <a href="https://getbootstrap.com/">Bootstrap</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

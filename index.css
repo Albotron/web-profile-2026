@@ -1,0 +1,39 @@
+.wrapper {
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    padding: 3px;
+}
+
+li {
+    list-style-type: none;
+    float: left;
+    border-right-color: #bbb;
+    border-right-width: 1px;
+    border-right-style: solid;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    background-color: crimson;
+}
+
+li a:hover {
+  background-color: #111
+}
+
+ul {
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
